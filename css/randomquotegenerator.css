@@ -1,0 +1,65 @@
+body{
+  /*margin: 0px;*/
+  padding: 0px;
+  /*background-color:#007a99;*/
+  background-image:url(../img/paradise.jpg);
+}
+
+.content-box{
+  position: relative;
+  width: 55%;
+  height: 500px;
+  background-color: #41d3f4;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.6);
+}
+
+#getMessage {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 15px 32px;
+  font-size: 20px;
+  border: none;
+  color: white;
+  background-color: #4286f4;
+}
+
+
+.quote-message {
+  position: absolute;
+  font-size: 25px;
+  margin: 100px;
+  
+}
+
+.author{
+  position: absolute;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 28px;
+  right: 30px;
+  bottom: 50px;
+}
+
+h1 {
+  margin: 15 auto;
+  font-family: 'Roboto';font-size: 40px;
+  color: #EAEAFF;
+}
+
+#paragraph-link {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+a {
+  color: hotpink;
+}
+
